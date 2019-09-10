@@ -1,9 +1,21 @@
 body
 {
   background-color: SlateBlue;
-  text-align: center;
+
 }
 img
 {
   max-width: 100%;
+}
+p
+{
+  font-family: cursive;
+}
+h1
+{
+
+}
+h2
+{
+
 }
