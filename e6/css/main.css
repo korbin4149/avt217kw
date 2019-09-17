@@ -1,0 +1,146 @@
+body
+{
+margin: 0;
+overflow-x: hidden;
+}
+#container
+{
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3, .tile4
+{
+  width: 100px;
+  height: 100px;
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
+.tile1
+{
+  background-color: dodgerblue;
+}
+.tile2
+{
+  background-color: rebeccapurple;
+}
+.tile3
+{
+  background-color: tomato;
+}
+.tile4
+{
+  background-color: darkorange;
+}
+.tile5, .tile6, .tile7
+{
+  float: left;
+}
+.tile5
+{
+  background-color: brown;
+  box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em purple,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 purple,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 purple,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 purple,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 purple,
+      3em -1em 0 0 red,
+      -4em 0 0 0 purple,
+      -3em 0 0 0 red,
+      3em 0 0 0 purple,
+      4em 0 0 0 red,
+      -5em 1em 0 0 purple,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 purple,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 purple,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 purple,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 purple,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 purple,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 purple,
+      2em 4em 0 0 red;
+      background: purple;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      margin: 50px 0 70px 65px;
+}
+.tile6
+{
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  background-color: slateblue;
+}
+.tile7
+{
+  width: 100px;
+  height: 100px;
+  background-color: fuchsia;
+}
+.tile8, .tile9, .tile10
+{
+  float: left;
+  opacity: .6;
+}
+.tile8
+{
+  width: 96px;
+        box-sizing: content-box;
+        height: 48px;
+        background: #eee;
+        border-color: red;
+        border-style: solid;
+        border-width: 2px 2px 50px 2px;
+        border-radius: 100%;
+        position: relative;
+      }
+      #yin-yang:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        background: #eee;
+        border: 18px solid red;
+        border-radius: 100%;
+        width: 12px;
+        height: 12px;
+        box-sizing: content-box;
+      }
+      #yin-yang:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: red;
+        border: 18px solid #eee;
+        border-radius: 100%;
+        width: 12px;
+        height: 12px;
+        box-sizing: content-box;
+}
+.tile9
+{
+  margin: -60px;
+  width: 100px;
+  height: 100px;
+  background-color: fuchsia;
+}
+.tile10
+{
+  margin: -20px;
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+}

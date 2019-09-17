@@ -11,11 +11,17 @@ p
 {
   font-family: cursive;
 }
-h1
+.intro
 {
-
+  font-family: fantasy;
 }
-h2
+#special
 {
-
+  font-size: 1.8em;
+  font-family: sans-serif;
+}
+#container
+{
+  width: 75%;
+  margin: 100px auto;
 }
