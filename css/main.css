@@ -7,3 +7,23 @@ img
 {
   max-width: 100%;
 }
+body
+{
+ font-family: serif;
+}
+a
+{
+  color: black;
+  text-decoration: none;
+  border-bottom: 5px solid black;
+  transition: color .5s ease;
+}
+a:hover
+{
+  color: white;
+  border-bottom: 5px dashed blue;
+}
+a:visited
+{
+  color: white;
+}
