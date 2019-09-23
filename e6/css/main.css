@@ -144,3 +144,79 @@ overflow-x: hidden;
   height: 100px;
   background-color: cyan;
 }
+.tilea, .tileb, .tilec, .tiled, .tilef
+{
+  float: left;
+  opacity: .7;
+}
+.tilea
+{
+  float: none;
+  margin: 20px;
+  width:  max;
+  height: 100px;
+  background-color: blue;
+}
+.tileb
+{
+  float: none;
+  margin: -60px;
+  width: max;
+  height: 100px;
+
+  background-color: orange;
+}
+.tilec
+{
+  float: none;
+  margin: 20px;
+  width: max;
+  height: 100px;
+  transform: rotate(45deg);
+  background-color: red;
+}
+.tiled
+{
+  float: none;
+  margin: -60px;
+  width: max;
+  height: 100px;
+  background-color: green;
+}
+.tilef
+{
+  float: none;
+  margin: 20px;
+  width: max;
+  height: 100px;
+  transform: rotate(-45deg);
+  background-color: purple;
+}
+.tileg, .tileh, .tilei
+{
+  float: left;
+  opacity: .6;
+}
+.tileg
+{
+  width: 100px;
+  height: 100px;
+  background: indigo;
+  border-radius: 50%
+}
+.tileh
+{
+  margin: -45px;
+  width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 dimGrey;
+}
+.tilei
+{
+  margin: -120px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  background-color: aqua;
+}
