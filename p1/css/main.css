@@ -1,9 +1,26 @@
 body
 {
-  background-color: SlateBlue;
+  background-color: lightslategrey;
   text-align: center;
 }
 img
 {
   max-width: 100%;
+}
+a
+{
+  color: black;
+  text-decoration: none;
+  border-bottom: 5px solid gold;
+  transition: color .5s ease;
+}
+a:hover
+{
+  color: white;
+  border-bottom: 5px dashed gold;
+  font-family:
+}
+a:visited
+{
+  color: deepskyblue;
 }
