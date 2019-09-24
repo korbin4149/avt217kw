@@ -1,0 +1,38 @@
+#container
+{
+  width: 800px;
+}
+.header, .thiccbox, .smallbox,.underline
+{
+  float: left;
+}
+.header
+{
+  background-color: red;
+  width: 800px;
+  height: 200px;
+  margin-bottom: 100px;
+}
+.thiccbox
+{
+  background-color: red;
+  width: 580px;
+  height: 600px;
+  margin-top: 10px;
+}
+.smallbox
+{
+  width: 200px;
+  height: 300px;
+  background-color: red;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.underline
+{
+  margin-top: 20px;
+  margin-bottom: 150px;
+  background-color: red;
+  width: 580px;
+  height: 40px;
+}
