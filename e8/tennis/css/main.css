@@ -1,0 +1,42 @@
+#container
+{
+  width: 800px;
+}
+.column, .toprow, .square1,.square2,.farcolumn
+{
+  float: left;
+}
+.column
+{
+  background-color: red;
+  width: 120px;
+  height: 400px;
+  margin-right: 5px;
+}
+.toprow
+{
+  background-color: red;
+  width: 500px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+.square1
+{
+  width: 245px;
+  height: 295px;
+  background-color: red;
+  margin-right: 5px;
+}
+.square2
+{
+  width: 250px;
+  height: 295px;
+  background-color: red;
+}
+.farcolumn
+{
+  width: 120px;
+  height: 400px;
+  background-color: red;
+  margin-left: 5px;
+}

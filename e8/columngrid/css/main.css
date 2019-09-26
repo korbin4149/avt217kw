@@ -1,0 +1,43 @@
+#container
+{
+  width: 800px;
+}
+.thiccrow, .thinrow, .column,.farcolumn,.bottomrow
+{
+  float: left;
+}
+.thiccrow
+{
+  background-color: red;
+  width: 800px;
+  height: 100px;
+}
+.thinrow
+{
+  background-color: red;
+  width: 800px;
+  height: 20px;
+  margin-top: 10px;
+}
+.column
+{
+  width: 250px;
+  height: 800px;
+  background-color: red;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.farcolumn
+{
+  width: 250px;
+  height: 800px;
+  background-color: red;
+  margin-top: 10px;
+}
+.thiccrow
+{
+  margin-top: 20px;
+  background-color: red;
+  width: 800px;
+  height: 100px;
+}
