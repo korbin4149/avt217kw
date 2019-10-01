@@ -2,7 +2,12 @@
 {
   width: 800px;
 }
-.column, .toprow, .square1,.square2,.farcolumn
+#midcontainer
+{
+  float: left;
+  width: 500px;
+}
+.column, .toprow, .square1,.square2,.farcolumn,.margin,.smallmargin
 {
   float: left;
 }
@@ -39,4 +44,14 @@
   height: 400px;
   background-color: red;
   margin-left: 5px;
+}
+.margin
+{
+  width: 800px;
+  margin-top: 5px;
+}
+.smallmargin
+{
+  width: 500px;
+  margin-top: 5px;
 }
