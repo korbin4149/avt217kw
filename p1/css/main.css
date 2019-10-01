@@ -14,15 +14,22 @@ img
          url('starcraft-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-family: 'SourceSansPro', sans-serif;
 
 }
 h1
 {
+  font-size: 300%;
   font-family: starcraftnormal;
 }
-
+h2
+{
+  font-size: 300%;
+  font-family: SourceSansPro;
+}
 a
 {
+  font-family: starcraftnormal;
   color: black;
   text-decoration: none;
   border-bottom: 5px solid gold;
