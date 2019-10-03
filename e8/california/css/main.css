@@ -90,6 +90,7 @@ body
 }
 #fulltestcontainer
 {
+  margin-left: 50px;
   margin-top: 10px;
   float: left;
   width: 450px;
