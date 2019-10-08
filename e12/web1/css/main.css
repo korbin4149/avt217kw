@@ -1,0 +1,45 @@
+/***general styles********/
+body
+{
+  background-color: steelblue;
+  margin: 0;
+}
+/*****div Styles******/
+#container
+{
+margin-left: 75px;
+}
+.text
+{
+  margin-top: -100px;
+  width: 60%;
+}
+.chapter
+{
+  width: 40%;
+  margin: -100px auto 0;
+}
+
+/***type styles********/
+p
+{
+
+  font-family: 'Roboto Slab', serif;
+}
+h1
+{
+  font-size: 9vw;
+  font-family: 'Roboto', sans-serif;
+}
+h2
+{
+  margin-top: -75px;
+  margin-left: 50px;
+  font-size: 72px;
+  font-family: 'Roboto', sans-serif;
+}
+h3
+{
+  font-size: 128px;
+  font-family: 'Roboto', sans-serif;
+}

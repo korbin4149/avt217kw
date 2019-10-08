@@ -1,0 +1,51 @@
+/***general styles********/
+body
+{
+  background-color: steelblue;
+  margin: 0;
+}
+/*****div Styles******/
+#container
+{
+}
+.title
+{
+  margin: 25px 25px 0;
+  width: 70%;
+}
+.chapter
+{
+  width: 100%;
+  transform: rotate(-90deg);
+  margin: 400px 0 0 150px;
+}
+
+.text,.chapterholder
+{
+  float: left;
+  margin-top: -200px;
+  width: 50%;
+}
+/***type styles********/
+p
+{
+  font-size: 18px;
+  font-family: 'PT Serif', serif;
+}
+h1
+{
+  font-size: 9vw;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+}
+h2
+{
+  font-size: 128px;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+}
+h3
+{
+  font-size: 72px;
+  font-family: 'PT Serif', serif;
+}
