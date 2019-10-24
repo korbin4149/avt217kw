@@ -39,26 +39,32 @@ p
 }
 #container
 {
-  width: 85%;
+  width: 90%;
   margin: auto;
-}
-#Firstimg
-{
-  float: left;
-  margin: 15% 0 0 2%;
-  width: 36%;
 }
 #Secondimg
 {
   float: left;
   width: 36%;
-  margin: 0 0 0 2%;
+  margin: 5% 0 0 2%;
 }
 #Middleimg
 {
   float: left;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+#textimage
+{
+  float: left;
+  width: 100%;
+}
+.Firstimg
+{
+  margin-top: 10%;
+  margin-left: 2%;
+  float: left;
+  width: 36%;
 }
 .StarCraft
 {
