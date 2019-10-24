@@ -1,3 +1,12 @@
+@font-face
+{
+    font-family: 'starcraftnormal';
+    src: url('starcraft-webfont.woff2') format('woff2'),
+         url('starcraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'SourceSansPro', sans-serif;
+  }
 html
 {
   background-color: black;
@@ -14,36 +23,62 @@ body
 }
 h1
 {
+  font-family: starcraftnormal;
   text-align: center;
   font-size: 72px;
 }
 h2
 {
+  font-family: starcraftnormal;
+  margin-bottom: -1px;
   font-size: 56px;
+}
+p
+{
+  font-family: SourceSansPro;
 }
 #container
 {
   width: 85%;
   margin: auto;
 }
-#imgcontainer
+#Firstimg
+{
+  float: left;
+  margin: 15% 0 0 2%;
+  width: 36%;
+}
+#Secondimg
+{
+  float: left;
+  width: 36%;
+  margin: 0 0 0 2%;
+}
+#Middleimg
+{
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .StarCraft
 {
-  width: 66%;
+  margin-top: -35px;
+  float: left;
+  width: 62%;
 }
 .BroodWars
 {
-  width: 66%;
+  margin-top: 1%;
+  float: left;
+  width: 62%;
 }
-.Starcraft2
+.StarCraft2
 {
-  width: 66%;
+  float: left;
+  width: 62%;
 }
 .Legacy
 {
-  width: 66%;
-}
-.firstimg
-{
-
+  float: left;
+  width: 62%;
 }
