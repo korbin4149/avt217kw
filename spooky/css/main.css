@@ -1,6 +1,6 @@
 html
 {
-  background-color: black;
+  background-color: gray;
 }
 #container
 {
@@ -24,7 +24,7 @@ html
   border-radius: 50%;
   position: absolute;
   top: 170px;
-  left: 350px;
+  left: 340px;
 }
 .eyeR
 {
@@ -34,26 +34,179 @@ html
   border-radius: 50%;
   position: absolute;
   top: 170px;
-  left: 400px;
+  left: 410px;
 }
 .mouth
 {
-  width: 160px;
-       height: 160px;
-       border-radius: 50%;
-       box-shadow: 30px 30px 0 0 black;
-  transform: rotate(30deg);
+  width: 260px;
+       height: 260px;
+       border-radius: 70%;
+       box-shadow: 89px 132px 0 0 black;
+  transform: rotate(44deg);
   position: absolute;
-  top: 200px;
-  left: 300px;
+  top: 50px;
+  left: 274px;
 }
+.tooth
+{
+  width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid white;
+  position: absolute;
+  top: 237px;
+  left: 266px;
+}
+.tooth2
+{
+  width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid white;
+  position: absolute;
+  top: 237px;
+  left: 317px;
+}
+.tooth3
+{
+  width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid white;
+  position: absolute;
+  top: 237px;
+  left: 363px;
+}
+.tooth4
+{
+  width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid white;
+  position: absolute;
+  top: 237px;
+  left: 407px;
+}
+
 .eyewhite
 {
   background-color: white;
-  width: 20px;
+  width: 15px;
   height: 35px;
   border-radius: 50%;
   position: absolute;
   top: -10px;
-  left: 6px;
+  left: 10px;
+}
+.Lbrow
+{
+  width: 80px;
+       height: 80px;
+       border-radius: 90%;
+       box-shadow: 15px 15px 0 0 black;
+  transform: rotate(40deg);
+  position: absolute;
+  top: 83px;
+  left: 385px;
+}
+.Rbrow
+{
+  width: 80px;
+       height: 80px;
+       border-radius: 50%;
+       box-shadow: 15px 15px 0 0 black;
+  transform: rotate(50deg);
+  position: absolute;
+  top: 81px;
+  left: 310px;
+}
+.leftarm
+{
+  display: block;
+      width: 126px;
+      height: 180px;
+      background-color: black;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(302deg);
+  position: absolute;
+  top: 156px;
+  left: 106px;
+}
+.leftarm2
+{
+  display: block;
+      width: 120px;
+      height: 160px;
+      background-color: white;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(304deg);
+  position: absolute;
+  top: 172px;
+  left: 119px;
+}
+.rightarm
+{
+  display: block;
+      width: 126px;
+      height: 180px;
+      background-color: black;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(394deg);
+  position: absolute;
+  z-index: -1;
+  top: 145px;
+  left: 513px;
+}
+.rightarm2
+{
+  display: block;
+      width: 125px;
+      height: 155px;
+      background-color: white;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(394deg);
+  position: absolute;
+  z-index: -1;
+  top: 155px;
+  left: 511px;
+}
+.tail
+{
+  display: block;
+      width: 125px;
+      height: 205px;
+      background-color: white;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(156deg);
+  position: absolute;
+  z-index: -1;
+  top: 248px;
+  left: -42px;
+}
+.tongue
+{
+  display: block;
+      width: 125px;
+      height: 205px;
+      background-color: white;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(124deg);
+  position: absolute;
+  top: 316px;
+  left: 232px;
+}
+.tongueoutline
+{
+  width: 200px;
+       height: 80px;
+       border-radius: 90%;
+       box-shadow: 5px 5px 0 0 black;
+  transform: rotate(48deg);
+  position: absolute;
+  top: 343px;
+  left: 220px;
 }
