@@ -16,6 +16,17 @@ html
   top: 30%;
   left: 30%;
 }
+.ghostback
+{
+  background-color: black;
+  width: 610px;
+  height: 610px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: -1%;
+  left: -1%;
+}
 .eyeL
 {
   background-color: black;
@@ -186,6 +197,19 @@ html
   z-index: -1;
   top: 248px;
   left: -42px;
+}
+.tailoutline
+{
+  display: block;
+      width: 135px;
+      height: 220px;
+      background-color: black;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(156deg);
+  position: absolute;
+  z-index: -2;
+  top: 245px;
+  left: -48px;
 }
 .tongue
 {
