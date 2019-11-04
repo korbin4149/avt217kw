@@ -88,3 +88,140 @@ p
   float: left;
   width: 62%;
 }
+@media only screen and (max-width: 1439px)
+{
+  h1
+  {
+    font-family: starcraftnormal;
+    text-align: center;
+    font-size: 72px;
+  }
+  h2
+  {
+    font-family: starcraftnormal;
+    margin-bottom: -1px;
+    font-size: 56px;
+  }
+  p
+  {
+    font-family: SourceSansPro;
+  }
+  #container
+  {
+    width: 90%;
+    margin: auto;
+  }
+  #Secondimg
+  {
+    float: left;
+    width: 36%;
+    margin: 5% 0 0 2%;
+  }
+  #Middleimg
+  {
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #textimage
+  {
+    float: left;
+    width: 100%;
+  }
+  .Firstimg
+  {
+    margin-top: 10%;
+    margin-left: 2%;
+    float: left;
+    width: 36%;
+  }
+  .StarCraft
+  {
+    margin-top: -35px;
+    float: left;
+    width: 62%;
+  }
+  .BroodWars
+  {
+    margin-top: 1%;
+    float: left;
+    width: 62%;
+  }
+  .StarCraft2
+  {
+    float: left;
+    width: 62%;
+  }
+  .Legacy
+  {
+    float: left;
+    width: 62%;
+  }
+}
+@media only screen and (max-width: 1023px)
+{
+  h1
+  {
+    font-family: starcraftnormal;
+    text-align: center;
+    font-size: 72px;
+  }
+  h2
+  {
+    font-family: starcraftnormal;
+    margin-bottom: -1px;
+    font-size: 56px;
+  }
+  p
+  {
+    font-family: SourceSansPro;
+  }
+  #container
+  {
+    width: 90%;
+    margin: auto;
+  }
+  #Secondimg
+  {
+    width: 50%;
+    margin: 5% 25% 0;
+  }
+  #Middleimg
+  {
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #textimage
+  {
+    float: left;
+    width: 100%;
+  }
+  .Firstimg
+  {
+    margin-top: 5%;
+    width: 80%;
+  }
+  .StarCraft
+  {
+    margin-top: -35px;
+    float: left;
+    width: 80%;
+  }
+  .BroodWars
+  {
+    margin-top: 1%;
+    float: left;
+    width: 80%;
+  }
+  .StarCraft2
+  {
+    float: left;
+    width: 80%;
+  }
+  .Legacy
+  {
+    float: left;
+    width: 80%;
+  }
+}
