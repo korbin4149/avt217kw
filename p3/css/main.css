@@ -72,6 +72,12 @@ p
   float: left;
   width: 62%;
 }
+.textsecond
+{
+  margin-top: -10%;
+  float: left;
+  width: 62%;
+}
 .BroodWars
 {
   margin-top: 1%;
@@ -141,6 +147,12 @@ p
     float: left;
     width: 62%;
   }
+  .textsecond
+  {
+    margin-top: -5%;
+    float: left;
+    width: 62%;
+  }
   .BroodWars
   {
     margin-top: 1%;
@@ -207,6 +219,12 @@ p
     margin-top: -35px;
     float: left;
     width: 80%;
+  }
+  .textsecond
+  {
+    margin-top: -5%;
+    float: left;
+    width: 62%;
   }
   .BroodWars
   {
