@@ -9,6 +9,7 @@
   }
 html
 {
+  font-size: 18px;
   background-color: black;
 }
 img
@@ -35,30 +36,36 @@ h2
 }
 p
 {
+  line-height: 1.3em;
   font-family: SourceSansPro;
 }
 #container
 {
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
 }
 #Secondimg
 {
   float: left;
   width: 36%;
-  margin: 5% 0 0 2%;
-}
-#Middleimg
-{
-  float: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 5% 0 5% 2%;
 }
 #textimage
 {
   float: left;
   width: 100%;
 }
+#video
+{
+  float: left;
+  width: 100vw;
+}
+.Middleimg
+{
+  width: 80vw;
+  margin: 50px auto;
+}
+
 .Firstimg
 {
   margin-top: 10%;
@@ -74,13 +81,19 @@ p
 }
 .textsecond
 {
-  margin-top: -10%;
+  margin-top: -6%;
   float: left;
   width: 62%;
 }
 .BroodWars
 {
   margin-top: 1%;
+  float: left;
+  width: 62%;
+}
+.BroodSecond
+{
+  margin-top: -30%;
   float: left;
   width: 62%;
 }
@@ -96,124 +109,25 @@ p
 }
 @media only screen and (max-width: 1439px)
 {
-  h1
-  {
-    font-family: starcraftnormal;
-    text-align: center;
-    font-size: 72px;
-  }
-  h2
-  {
-    font-family: starcraftnormal;
-    margin-bottom: -1px;
-    font-size: 56px;
-  }
-  p
-  {
-    font-family: SourceSansPro;
-  }
-  #container
-  {
-    width: 90%;
-    margin: auto;
-  }
-  #Secondimg
-  {
-    float: left;
-    width: 36%;
-    margin: 5% 0 0 2%;
-  }
-  #Middleimg
-  {
-    float: left;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  #textimage
-  {
-    float: left;
-    width: 100%;
-  }
-  .Firstimg
-  {
-    margin-top: 10%;
-    margin-left: 2%;
-    float: left;
-    width: 36%;
-  }
-  .StarCraft
-  {
-    margin-top: -35px;
-    float: left;
-    width: 62%;
-  }
-  .textsecond
-  {
-    margin-top: -5%;
-    float: left;
-    width: 62%;
-  }
-  .BroodWars
-  {
-    margin-top: 1%;
-    float: left;
-    width: 62%;
-  }
   .BroodSecond
   {
     margin-top: -24%;
     float: left;
     width: 62%;
   }
-  .StarCraft2
+  .textsecond
   {
-    float: left;
-    width: 62%;
-  }
-  .Legacy
-  {
+    margin-top: -2%;
     float: left;
     width: 62%;
   }
 }
 @media only screen and (max-width: 1023px)
 {
-  h1
-  {
-    font-family: starcraftnormal;
-    text-align: center;
-    font-size: 72px;
-  }
-  h2
-  {
-    font-family: starcraftnormal;
-    margin-bottom: -1px;
-    font-size: 56px;
-  }
-  p
-  {
-    font-family: SourceSansPro;
-  }
-  #container
-  {
-    width: 90%;
-    margin: auto;
-  }
   #Secondimg
   {
     width: 50%;
     margin: 2% 25% 0;
-  }
-  #Middleimg
-  {
-    float: left;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  #textimage
-  {
-    float: left;
-    width: 100%;
   }
   .Firstimg
   {
@@ -241,7 +155,7 @@ p
   }
   .BroodSecond
   {
-    margin-top: 1%;
+    margin: 1% 0 0 0;
     float: left;
     width: 80%;
   }
@@ -256,88 +170,56 @@ p
     width: 80%;
   }
 }
-  @media only screen and (max-width: 767px)
+@media only screen and (max-width: 767px)
+{
+  .Middleimg
   {
-    h1
-    {
-      font-family: starcraftnormal;
-      text-align: center;
-      font-size: 72px;
-    }
-    h2
-    {
-      font-family: starcraftnormal;
-      margin-bottom: -1px;
-      font-size: 56px;
-    }
-    p
-    {
-      font-family: SourceSansPro;
-    }
-    #container
-    {
-      width: 90%;
-      margin: auto;
-    }
-    #Secondimg
-    {
-      width: 50%;
-      margin: 2% 25% 0;
-    }
-    #Middleimg
-    {
-      float: left;
-      margin-top: 50px;
-      margin-bottom: 50px;
-    }
-    #textimage
-    {
-      float: left;
-      width: 100%;
-    }
-    .Firstimg
-    {
-      margin: 5% 10% 5%;
-      width: 80%;
-    }
-    .StarCraft
-    {
-      text-align: center;
-      margin-top: -35px;
-      float: left;
-      width: 100%;
-    }
-    .textsecond
-    {
-      text-align: center;
-      margin-top: -5%;
-      float: left;
-      width: 100%;
-    }
-    .BroodWars
-    {
-      text-align: center;
-      margin-top: 1%;
-      float: left;
-      width: 100%;
-    }
-    .BroodSecond
-    {
-      text-align: center;
-      margin-top: 1%;
-      float: left;
-      width: 100%;
-    }
-    .StarCraft2
-    {
-      text-align: center;
-      float: left;
-      width: 100%;
-    }
-    .Legacy
-    {
-      text-align: center;
-      float: left;
-      width: 100%;
-    }
+    width: 80vw;
+    margin: 1% auto;
+  }
+  .Firstimg
+  {
+    margin: 5% auto;
+    width: 80vw;
+  }
+  .StarCraft
+  {
+    text-align: center;
+    margin-top: -35px;
+    float: left;
+    width: 100%;
+  }
+  .textsecond
+  {
+    text-align: center;
+    margin-top: -5%;
+    float: left;
+    width: 100%;
+  }
+  .BroodWars
+  {
+    text-align: center;
+    margin-top: 1%;
+    float: left;
+    width: 100%;
+  }
+  .BroodSecond
+  {
+    text-align: center;
+    margin-top: 1%;
+    float: left;
+    width: 100%;
+  }
+  .StarCraft2
+  {
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
+  .Legacy
+  {
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
 }
