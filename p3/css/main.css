@@ -46,22 +46,23 @@ p
 }
 #Secondimg
 {
+  max-width: 36%;
   float: left;
-  width: 36%;
   margin: 5% 0 5% 2%;
 }
+
 #textimage
 {
   float: left;
   width: 100%;
 }
-.video {
+.videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
-.video iframe {
+.videoWrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -134,8 +135,9 @@ p
 {
   #Secondimg
   {
-    width: 50%;
-    margin: 2% 25% 0;
+    max-width: 50%;
+    float: left;
+    margin: 2% 25%;
   }
   .Firstimg
   {
@@ -153,7 +155,7 @@ p
   {
     margin-top: -5%;
     float: left;
-    width: 62%;
+    width: 80%;
   }
   .BroodWars
   {
