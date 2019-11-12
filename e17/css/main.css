@@ -1,6 +1,83 @@
-
+*
+{
+  box-sizing: border-box;
+}
+html
+{
+font-size: 16px;
+}
 body
 {
     margin: 0;
     font-family: 'Oswald', sans-serif;
+}
+h1
+{
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+.title
+{
+  width: 100vw;
+  height: 90vh;
+  background-color: steelblue;
+  padding: 32vh 0 0 0;
+}
+.seven
+{
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
+  color: #ddd;
+  padding: 32vh 0 0 0;
+}
+.fifty
+{
+  width: 100vw;
+  height: 90vh;
+  background-color: steelblue;
+  color: #ddd;
+  padding: 32vh 0 0 0;
+}
+.twenty
+{
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
+  color: #ddd;
+  padding: 32vh 0 0 0;
+}
+.five
+{
+  width: 100vw;
+  height: 90vh;
+  background-color: steelblue;
+  color: #ddd;
+  padding: 32vh 0 0 0;
+}
+.four
+{
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
+  color: #ddd;
+  padding: 32vh 0 0 0;
+}
+.align-left
+{
+  text-align: left;
+}
+.spin
+{
+  transition: all 3s ease;
+  transform: rotateX(9000deg);
+}
+.spinup
+{
+  transition: all 3s ease;
+  transform: rotatey(180deg);
 }
