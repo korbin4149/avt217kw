@@ -5,7 +5,7 @@ $(document ).ready(function()
 
   $(".seven").click(function()
   {
-    $(".number1").toggleClass("align-left")
+    $(".number1").toggleClass("ColorChange")
   });
 
   $(".fifty").click(function()

@@ -67,9 +67,10 @@ h1
   color: #ddd;
   padding: 32vh 0 0 0;
 }
-.align-left
+.ColorChange
 {
-  text-align: left;
+  transition: all 3s ease;
+  color: DarkOrchid;
 }
 .spin
 {
