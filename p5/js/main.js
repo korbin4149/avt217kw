@@ -3,11 +3,9 @@ $(document).ready(function()
   console.log("This site, thou art has created has loaded good sir");
 
 
-
-
-  $(".seven").click(function()
+  $(".first").click(function()
   {
-    $(".third").toggleClass("ColorChange")
+    $(".second").toggleClass("show")
   });
 
   $(".first").click(function()

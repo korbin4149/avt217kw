@@ -1,27 +1,41 @@
 body
 {
   text-align: center;
+  background-color: black;
 }
-img
+img:hover
 {
-  text-align: center;
-  width: 80%;
-  padding: 0 auto;
-  margin: 0 auto;
+  cursor: pointer;
+  width: 85%;
+  opacity: .7;
 }
 .first
 {
+  position: relative;
   display: block;
+  z-index: 1;
 }
 .second
 {
-  z-index:1;
+  position: relative;
+  display: none;
+  z-index: -1;
 }
 .third
 {
-  display: block;
+  display: none;
 }
 .ColorChange
 {
   display: none;
+}
+.show
+{
+  display: block;
+}
+img
+{
+  width: 80%;
+  padding: 0 auto;
+  margin: 0 auto;
 }
